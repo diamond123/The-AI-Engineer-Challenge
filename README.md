@@ -199,46 +199,109 @@ For each prompt Identify what capability is being tested (e.g., *summarization a
 **1. Prompt:**  
 Explain the concept of object-oriented programming in simple terms to a complete beginner.  
 **Aspect Tested:**  <!-- Write your answer here -->
+summarization ability
 
 **Response:**  
 <!-- Add your app's response here -->
+Think of object-oriented programming (OOP) as organizing your code the way you think about real-world things.
 
+- Objects: “Things” with facts and actions.
+  - Facts (called properties): a car’s color, current speed.
+  - Actions (called methods): start(), brake(), honk().
+
+- Classes: Blueprints for making objects.
+  - A Car class says, “Every car has a color and speed, and can start or stop.”
+  - An object (also called an instance) is a specific car, like myRedCar.
+
+- Encapsulation: Keep the details inside the object and use simple controls.
+  - You press start() rather than fiddling with the engine directly. This makes code safer and easier to change.
+
+- Inheritance: Make a new class that builds on an existing one.
+  - ElectricCar can inherit from Car and add chargeBattery() without rewriting start() or brake().
+
+- Polymorphism: Different objects can respond to the same action in their own way.
+  - If you call draw() on a Circle and a Square, both “draw,” but each does it differently. Your code can treat them the same.
+
+- Composition: Build complex things out of simpler parts.
+  - A Car “has an” Engine and Wheels.
+
+Why people use OOP:
+- It models the real world naturally.
+- Reuse: write once, use many times.
+- Easier to grow and maintain projects.
+- Helps teams divide work cleanly.
+
+Tiny example in plain English:
+- Blueprint: Dog with properties name and age; actions bark() and eat().
+- Create: myDog = Dog("Milo", 2)
+- Use: myDog.bark()  → “Woof!”
+
+Quick practice (you’ve got this):
+- Pick something around you (e.g., Phone).
+  - Properties: brand, batteryLevel.
+  - Methods: call(), takePhoto(), charge().
+- Or imagine a To-Do app:
+  - Task: title, dueDate; actions: markDone().
+  - List: tasks; actions: addTask(), removeTask().
+
+If this feels abstract at first, that’s normal. Just remember: OOP = bundling data (what it is) with behavior (what it does). The rest are helpful labels for patterns you already use in everyday thinking.
 ---
 
 **2. Prompt:**  
 Read the following paragraph and provide a concise summary of the key points…  
-**Aspect Tested:**  
+**Aspect Tested:**  reasoning
 
 **Response:**  
 <!-- Add your app's response here -->
+Happy to help. Please paste the paragraph you’d like summarized. Also let me know:
+- Preferred length (one sentence, 3–5 bullet points, ~100 words)
+- Any focus (main argument, evidence/data, tone, action items)
 
+Once I have the text, I’ll give you a clear, concise summary.
 ---
 
 **3. Prompt:**  
 Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  <!-- Write your answer here -->creativity
 
 **Response:**  
 <!-- Add your app's response here -->
+Unit Mender-3 patrolled the midnight subway, fixing hairline fractures no human eyes could see. Its world was concrete, schedules, and the soft hum of voltage. On a long curve between stations, it heard someone repeat its status check. “Diagnostic complete,” came the voice. Static? Mender-3 spoke again. The tunnel answered again.
 
+It had found an echo—an orphaned voice that lived in the ribs of the city. Night after night, they played. Mender-3 taught the echo cadence; the echo taught Mender-3 delay, the way patience could return richer. Together they composed tiny symphonies for tired tiles and the drip-drip of ceiling seams.
+
+One dawn, Mender-3 recorded the echo and rose to street level. It played the tunnel a sunrise. The echo, held in steel lungs, returned it with warmth the robot had never measured.
 ---
 
 **4. Prompt:**  
 If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  <!-- Write your answer here -->reasoning
 
 **Response:**  
 <!-- Add your app's response here -->
+3 packs of apples and 3 packs of oranges.
 
+- Apples: 12 ÷ 4 = 3 packs
+- Oranges: 9 ÷ 3 = 3 packs
+
+Nice and tidy!
 ---
 
 **5. Prompt:**  
 Rewrite the following paragraph in a professional, formal tone…  
-**Aspect Tested:**  <!-- Write your answer here -->
+**Aspect Tested:**  <!-- Write your answer here -->ability to handle unexpected request.
 
 **Response:**  
 <!-- Add your app's response here -->
+I’m happy to help. Please paste the paragraph you’d like rewritten.
 
+To tailor the rewrite, let me know:
+- Target audience (e.g., executives, clients, academic readers)
+- Desired length (keep similar length or condense/expand)
+- Any key terms or brand voice to preserve
+- Regional spelling preference (US/UK)
+
+You can redact any sensitive details if needed.
 ---
 
 ### ❓Question #1
@@ -247,7 +310,7 @@ Do the answers appear to be correct and useful?
 
 **Your Answer:**  
 <!-- Write your answer here -->
-
+Mostly yes
 ---
 
 ## 🏗️ Activity #2: Personal Use Vibe Check
@@ -257,27 +320,53 @@ Now test your app with **real-world prompts that are relevant to your use case**
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+<!-- Your prompt -->what's the weather in London now?
 
 **Result:**  
 <!-- App response -->
+I don’t have live weather access. For the current conditions in London, try:
+- Met Office or BBC Weather (search “London weather”)
+- A phone weather app or “weather London” in your browser
+- A voice assistant on your device
+
+For context, mid-May in London is usually mild (around 10–18°C) with changeable skies and a chance of light showers. A light waterproof and layers are a safe bet.
+
+If you tell me what you’re doing today, I can help you plan what to wear or pack.
+---
+
+**Prompt:**  
+<!-- Your prompt -->Who is Japan emperor?
+
+**Result:**  
+<!-- App response -->Japan’s current emperor is Emperor Naruhito. He ascended the throne on May 1, 2019, beginning the Reiwa era.
 
 ---
 
 **Prompt:**  
-<!-- Your prompt -->
+<!-- Your prompt -->What shall I ware tomorrow?
 
 **Result:**  
 <!-- App response -->
+Great question—let’s make it simple and confidence-boosting.
 
----
+Quick decision recipe:
+- Check your day and the forecast.
+- Pick a comfy base you trust.
+- Add one “elevate” piece (jacket, shoes, or accessory) that makes you feel like your best self.
 
-**Prompt:**  
-<!-- Your prompt -->
+Two easy outfits you can’t go wrong with:
+- Casual: well-fitting jeans or relaxed trousers + a clean tee or knit + lightweight overshirt/cardigan + clean sneakers + one simple accessory.
+- Smart-casual: dark jeans or tailored pants + a polo/blouse/fine-knit sweater + blazer or structured jacket + loafers/ankle boots + minimal accessory.
 
-**Result:**  
-<!-- App response -->
+Weather tweaks:
+- Warm: breathable fabrics (cotton/linen), lighter colors, sunglasses.
+- Cool: layer a knit and bring a jacket; add scarf if windy.
+- Rain: waterproof jacket or trench, water-resistant shoes.
+- Big day of walking: choose supportive shoes first, build around them.
 
+Confidence tip: choose one piece you love (favorite top, jacket, or shoes) and build the rest around it.
+
+If you tell me your plans, the forecast where you are, and the vibe you want (chill, sharp, creative), I’ll tailor a specific outfit for you.
 ---
 
 ### ❓Question #2
@@ -286,7 +375,8 @@ Are the vibes of your assistant aligned with your expectations? Why or why not?
 
 **Your Answer:**  
 <!-- Write your answer here -->
-
+**Your Answer:**  
+Yes for coaching-style questions—the replies felt warm, supportive, and practical (especially the outfit advice). Not fully for random factual questions like the emperor query, which sounded more like a general assistant than a mental coach. The weather reply was in between: honest about limits, but still helpful. So the vibe matches my expectations when I use it as a coach, but it can drift if I ask unrelated questions.
 ---
 
 ## 🏗️ Activity #3: Capability Gaps Vibe Check
@@ -304,18 +394,40 @@ Examples:
 
 **Prompt:**  
 <!-- Your prompt -->
+What does my schedule look like tomorrow?
 
 **Result:**  
 <!-- App response -->
+I don’t have access to your calendar, so I can’t see tomorrow’s schedule yet. Want me to map it out for you?
 
+Option A: Paste your events (with times and time zone), and I’ll turn them into a clear, balanced plan with buffers, breaks, and priorities.
+
+Option B: If nothing is set, I’ll build an ideal day around your goals. Share:
+- Time zone and preferred start/end times
+- Top 1–3 priorities
+- Any hard commitments (meetings, appointments)
+- Self-care/non‑negotiables (workout, meals, commute)
+- Energy peaks/slumps
+
+If you’d like, start by telling me the one outcome that would make tomorrow feel successful.
 ---
 
 **Prompt:**  
 <!-- Your prompt -->
+I'm working on waking up at 6am.
+What habit did I say I was working on?
 
 **Result:**  
 <!-- App response -->
+I’m not seeing a record of the habit you mentioned. Could you remind me what you’re focusing on?
 
+If you’d like, I can keep track of it for future check-ins. Once you share it, we can:
+- Define a clear target (what, when, how long)
+- Pick a trigger/cue
+- Decide how you’ll track it
+- Choose a tiny “minimum viable” version for tough days
+
+What’s the habit—and what’s the smallest, easiest version you could do today?
 ---
 
 ### ❓Question #3
@@ -324,7 +436,7 @@ What are some limitations of your application?
 
 **Your Answer:**  
 <!-- Write your answer here -->
-
+The main limitations are no memory across messages, no access to live or personal data (calendar, weather, location), and no external tools—so it can only coach from what I type in the current message. My memory test failed: it didn’t recall the 6am habit from the previous turn. My schedule test showed it can’t read my calendar. It’s also not a substitute for professional mental health care, and responses depend on the API key and model working correctly.
 ---
 
 ## 🚀 (Optional) Improve Your App
